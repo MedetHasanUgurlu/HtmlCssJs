@@ -118,7 +118,7 @@ console.log(result);
 // \
 // single quote:  \'
 // multiple quote \"
-console.log("1.satır \n 2.satır");
+// console.log("1.satır \n 2.satır");
 
 
 //JavaScript Keywords:
@@ -130,9 +130,63 @@ console.log("1.satır \n 2.satır");
 
 //Math
 
-console.log(Math.min(5435,4534,4353));
-console.log(Math.max(5435,4,54));
-console.log(Math.sqrt(16));
+// console.log(Math.min(5435,4534,4353));
+// console.log(Math.max(5435,4,54));
+// console.log(Math.sqrt(16));
+
+// Sayılar
+// let sayi1 = 55;
+
+// Tam Sayı
+// console.log(sayi1);
+// Virgüllü Sayı
+// sayi1 = 44.44;
+// console.log(sayi1);
+
+//Bilimsel
+// let bilimselGosterim;
+// bilimselGosterim = 12E+5;
+
+
+
+//İnfinity
+// const number2 = 5/0;
+// console.log(number2);
+
+//Sayı sistemleri
+//Binary(2) ==> 0 ve 1
+//Octave(8) ==> 0,1,2,3,4,5,6,7
+//Decimaş(10) ==> 0,1,2,3,4,5,6,7,8,9
+//Hexadecimal(16) ==> 0,1,2,3,4,5,6,7,8,9,10,a,b,c,d,e,f
+
+
+// let binary = 0b01101010;
+// console.log(binary);
+
+// let decimal = 0x76210;
+// console.log(decimal);
+
+
+// toFixed: virgülden sonra kaç rakam gösterilir.
+// const sayi = 87.23234234;
+// console.log(sayi.toFixed(5));
+
+// toExpantional: 
+
+// KELİMELER
+
+const string = "Mehaba güzel insanlar";
+document.write(string + "<br/>");
+document.write("Harf Sayisi: "+ string.length + "<br/>");
+document.write(string.toUpperCase + "<br/>");
+document.write(string.toLowerCase + "<br/>");
+document.write
+
+
+
+
+
+
 
 
 
