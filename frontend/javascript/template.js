@@ -67,27 +67,71 @@ var karar = true;
 
 // Kullanıcadan veri alma
 // prmpt: verisinde bize String yani kelime döner biz bunu sayıya çevirmemz gerekir.
-var userData = Number(prompt("Lütfen bir sayı giriniz"))
-console.log(userData*userData);
+//var userData = Number(prompt("Lütfen bir sayı giriniz"))
+//console.log(userData*userData);
 
 
 
 //instanceof o verinin o türe ait olmadığını söyler.
-var variable = "Mustafa Kemal Atatürk"
-console.log(variable);
-console.log(typeof(variable));
+//var variable = "Mustafa Kemal Atatürk"
+//console.log(variable);
+//console.log(typeof(variable));
 
-
+/*
 
 var dizi = [];
 console.log(dizi);
 console.log(typeof(dizi));
 console.log(dizi instanceof Array);
 console.log(dizi instanceof Object);
-
+*/
 
 //
-console.log(dizi instanceof Number);
+//console.log(dizi instanceof Number);
+
+
+//undefined
+//var variable;
+//console.log(variable);
+
+//Infinity 
+/*
+var number=7/0;
+console.log(number);
+*/
+
+// NaN not a number
+/*var result = 7/ "KOL";
+console.log(result);
+*/
+
+//isNaN: is not a number?
+//console.log(isNaN(554));
+
+
+// new: hafızadan bir yer açmak
+// null: hafızadaki yeri kapatmak
+// zero: hafızadaki bir yere sahip ancak değeri sıfır 
+
+//Escape Characher
+//Bazen özel simgelerimizi işlem yapamadığımız durumlarda yardıma koşar.
+// \
+// single quote:  \'
+// multiple quote \"
+console.log("1.satır \n 2.satır");
+
+
+//JavaScript Keywords:
+// break        : döngüyü durdurmak içindir
+// return       :
+// continue     : sadece o anda çalışma arasında döngüde devam etmek
+// debugger     : debug atarken kullanıyoruz.
+
+
+//Math
+
+
+
 
 
 
