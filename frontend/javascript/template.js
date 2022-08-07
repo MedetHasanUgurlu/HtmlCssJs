@@ -130,6 +130,17 @@ console.log("1.satır \n 2.satır");
 
 //Math
 
+console.log(Math.min(5435,4534,4353));
+console.log(Math.max(5435,4,54));
+console.log(Math.sqrt(16));
+
+
+
+
+
+
+
+
 
 
 
