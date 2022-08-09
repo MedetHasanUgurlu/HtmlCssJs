@@ -2,6 +2,7 @@
 <head>
     <title>Jon Duckett</title>
     <link rel="stylesheet" href="02.html">
+
     
 
 
@@ -144,7 +145,77 @@
     </tfoot>
 </table>
 
+<!-- Forms -->
 
+<!-- Text Input -->
+<form action="" method="post" id="formsId">
+
+    <!-- Username -->
+    <p> Username: <input type="text" name="username" id="usernameId" size="15" maxlength="15"> </p>
+
+    <!-- Password   -->
+    <p>Password: <input type="password" name="password" id="passwordId" maxlength="15" size="15"></p>
+
+    <!-- Textarea -->
+    <p>What did you think about me?</p>
+    <textarea name="textarea" id="texrareaId" cols="30" rows="10"></textarea>
+
+    <!-- RadioButton -->
+    <p>What is your favorite music type</p>
+    <br>
+    <input type="radio" name="radiobutton1" value="Rock" checked="checked">Rock
+    <input type="radio" name="radiobutton1" value="Jazz">Jazz
+    <input type="radio" name="radiobutton1" value="Classic">Classic
+    <br>
+    <!-- Checkbox -->
+    <p>Please select your favorite music service</p>
+    <input type="checkbox" name="service" id="checkbox1Id"> iTunes
+    <input type="checkbox" name="service" id="Last.fm"> Last.fm
+    <input type="checkbox" name="service" id="Spotify"> Spotify
+    <br>
+    <!-- Drop Down List Box -->
+    <p>What device do you listen to music on?</p>
+    <select name="devices" id="devicesId">
+        <option value="ipod">iPod</option>
+        <option value="radio">Radio</option>
+        <option value="computer">Computer</option>
+    </select>
+
+    <!-- Multiple Select Box -->
+    <p>Do you play any of the following instruments? 
+    (You can select more than one option by holding 
+    down control on a PC or command key on a Mac 
+    while selecting different options.)</p>
+    
+    <select name="instruments" id="instrumentsId" multiple="multiple" size="3">
+        <option value="guitar" selected> Guitar</option>
+        <option value="piano">Piano</option>
+        <option value="cello">Cello</option>
+        <option value="drum">Drum</option>
+        <option value="keyboard">Keyboard</option>
+    </select>
+    <hr>
+
+    <!-- File Input Box -->
+    <p>Upload your song in MP3 format:</p>
+    <input type="file" name="user-song">
+    <br>
+    <input type="submit" name="upload">
+    <hr>
+
+    <!-- Image Button -->
+    <p>Subscribe to our emaillist</p>
+    <input type="text" name="emailText">
+    <input type="image" src="../images/w3school.png" width="100" height="25">
+
+    
+
+
+
+
+    
+
+</form>
 
 
 
