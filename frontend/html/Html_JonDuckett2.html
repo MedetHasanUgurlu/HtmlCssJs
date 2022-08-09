@@ -207,27 +207,105 @@
     <p>Subscribe to our emaillist</p>
     <input type="text" name="emailText">
     <input type="image" src="../images/w3school.png" width="100" height="25">
+    <br>
 
-    
+    <!-- Labelling form controls -->
+    <label>Age: <input type="text" name="age" id="ageId"> </label>
+    Gender:
+    <input type="radio" name="gender" id="maleId" value="m">
+    <label for="maleId">Male</label>
+    <input type="checkbox" name="gender" id="femaleId" value="f">
+    <label for="femaleId">Female</label>
 
+    <!-- Grouping Form Elements -->
+    <fieldset>
+        <legend>Contact Detail</legend>
+        <label>Email:</label>
+        <br>
+        <input type="text" name="email" id="emailId" value="email">
+        <br>
+        <label>Mobile:</label>
+        <br>
+        <input type="text" name="mobile" id="mobileId" value="mobile">
+        <br>
+        <label>Telephone:</label>
+        <br>
+        <input type="text" name="telephone" id="telephoneId" value="telephone">
+    </fieldset>
+    <hr>
+ 
+</form>
 
-
-
-    
+   <!-- HTML Form Validation -->
+<form action="http://www.imdb.com">
+   <label for="usernameId">Username:</label>
+   <input type="text" name="username" id="usernameId" placeholder="Username">
+   <br>
+   <label for="passwordId">Password:</label>
+   <input type="password" name="password" id="passwordId" required placeholder="Enter the password" >
+   <input type="submit" name="submit" id="submitId" value="Submit">
+   <br>
 
 </form>
 
+<!-- Date Input -->
+<form action="http://www.imdb.com" method="post">
+    <label for="departureDate">Departure Date:</label>
+    <input type="date" name="date" id="dateId">
+    <input type="submit" name="Submit">
+</form>
+
+<!-- Email and URL Input -->
+<form action="">
+
+    <label for="emailId">Please enter your email</label>
+    <br>
+    <input type="email" name="email" id="emailId">
+    <br>
+    <hr>
+    <label for="urlId">Please enter your URL.</label>
+    <input type="url" name="url" id="urlId">
+    <input type="submit" name="submit" id="submitId">
+</form>
+
+<!-- Exercise -->
+<fieldset>
+    <legend>Your Details:</legend>
+    <label for="nameId2">Name:</label>
+    <input type="text" name="name" id="nameId2">
+    <br>
+    <label for="emailId2">Email:</label>
+    <input type="text" name="email" id="emailId2">
+    <br>
+</fieldset>
+
+<fieldset>
+    <legend>Your Review:</legend>
+    <label for="channelId">How did you hear about us?</label>
+    <select name="channel" id="channelId">
+        <option value="Google" selected>Google</option>
+        <option value="Friend">Friend</option>
+        <option value="Article">Article</option>
+    </select>
+    <br>
+    <p>Would you visit again?</p>
+    <label for="yesId"><input type="radio" name="rating" id="yesId" value="yes"> Yes</label>
+    <label for="noId"><input type="radio" name="rating" id="noId" value="no"> No</label>
+    <label for="maybeId"><input type="radio" name="rating" id="maybeId" value="maybe"> Maybe</label>
+    <br>
+    <label for="textareaId">Comments:</label>
+    <br>
+    <textarea name="textarea" id="textareaId" cols="30" rows="10"></textarea>
+    <br>
+    <label for="signMeUpId"> <input type="checkbox" name="checkbox" id="signMeUpId" checked> Sign me up for email updates.</label>
+    <br>
+    <label for="submitId2"><input type="submit" name="submit" id="submitId2" value="Submit review"></label>
 
 
-
-
-
+</fieldset>
 
 
 
 
 </body>
-
-
-
 </html>
