@@ -175,12 +175,21 @@ console.log(result);
 
 // KELİMELER
 
+// const string = "Mehaba güzel insanlar";
+// document.write(string + "<br/>");
+// document.write("Harf Sayisi: "+ string.length + "<br/>");
+// document.write(string.toUpperCase + "<br/>");
+// document.write(string.toLowerCase + "<br/>");
+// document.write
+
+
+//parcalama
 const string = "Mehaba güzel insanlar";
-document.write(string + "<br/>");
-document.write("Harf Sayisi: "+ string.length + "<br/>");
-document.write(string.toUpperCase + "<br/>");
-document.write(string.toLowerCase + "<br/>");
-document.write
+document.write(string.substring(2));
+document.write(string.substring(2,6));
+
+//charat
+document.write(string.charAt());
 
 
 
