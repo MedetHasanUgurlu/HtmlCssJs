@@ -2,6 +2,22 @@
 <head>
     <title>Jon Duckett</title>
     <link rel="stylesheet" href="02.html">
+    <meta name="description" content="HTML learning">
+    <meta name="keywords" content="HTML,learning">
+    <meta http-equiv="author" content="Medet Hasan Uğurlu">
+    <!-- 
+    Pragma: This prevents the browser from caching the page. 
+    (That is, storing it locally to save time downloading
+    it on subsequent visits.) -->
+    <meta http-equiv="pragma" content="no-cache">
+
+    
+    <!-- expires: Because browsers often cache the content of a page, 
+    the expires option can be used to indicate when the page
+    should expire (and no longer be cached). Note that the date must
+    be specified in the format shown. -->
+    <meta http-equiv="expires" content="Fri, 04 Apr 2023 23:59:59 GMT">
+
 
     
 
@@ -118,30 +134,23 @@
         <th>Date</th>
         <th>Income</th>
         <th>Expenditure</th>
-
     </thead>
-
     <tbody>
         <tr>
             <th>1st January</th>
             <td>250</td>
             <td>36</td>
         </tr>
-
         <tr>
             <th>2nd January</th>
             <td>285</td>
             <td>48</td>
         </tr>
-
     </tbody>
-
     <tfoot>
         <th>Total</th>
         <td>535</td>
         <td>84</td>
-
-
     </tfoot>
 </table>
 
@@ -278,7 +287,7 @@
     <input type="text" name="email" id="emailId2">
     <br>
 </fieldset>
-
+<!-- Exercise 2 -->
 <fieldset>
     <legend>Your Review:</legend>
     <label for="channelId">How did you hear about us?</label>
@@ -300,12 +309,86 @@
     <label for="signMeUpId"> <input type="checkbox" name="checkbox" id="signMeUpId" checked> Sign me up for email updates.</label>
     <br>
     <label for="submitId2"><input type="submit" name="submit" id="submitId2" value="Submit review"></label>
-
-
 </fieldset>
 
+<!-- Class Attribute -->
+<p class="important">For a one-year period from 
+    November 2010, the Marugame Genichiro-Inokuma 
+    Museum of Contemporary Art (MIMOCA) will host a 
+    cycle of four Hiroshi Sugimoto exhibitions.</p>
+
+<p>Each will showcase works by the artist 
+    thematically contextualized under the headings 
+    "Science," "Architecture," "History" and 
+    "Religion" so as to present a comprehensive 
+    panorama of the artist's oeuvre.</p>
+
+<p class="Important admittance">Hours: 10:00 – 18:00  (No admittance after 17:30)</p>
+
+<!-- Inline Elements -->
+<p>Timed to a single revolution of the planet around 
+    the sun at a 23.4 degrees tilt that plays out the 
+    rhythm of the seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>>science, 
+    architecture, history</b> and <b>religion</b>
+</p>
+
+<!-- Grouping Text & Elements in a Block -->
+<!-- div: Division(Bölme) -->
+<div id="header">
+    <img src="../images/anish kapoor.jpg" alt="anish kapoor">
+    <ul>
+        <li> <a href="https://www.imdb.com/">İmdb</a> </li>
+        <li> <a href="https://www.fullhdfilmizlesene.pw/">Full Hd Film İzlesene</a></li>
+    </ul>
+</div>
 
 
+<!-- Grouping Text & Elements Inline -->
+<!-- Definition and Usage
+The <span> tag is an inline container used to mark up a part of a text, or a part of a document.
+The <span> tag is easily styled by CSS or manipulated with JavaScript using the class or id attribute.
+The <span> tag is much like the <div> element, but <div> is a block-level element and <span> is an inline element. -->
 
+    <p>Anish Kapoor won the Turner Prize in 1991 and 
+        exhibited <span class=""> at the Tate 
+        Modern </span> gallery in London in 2003.</p>
+
+
+<!-- Escape Characters -->
+<!-- 
+< Less-than sign &lt, &#60
+> Greater-than sign &gt &amp
+& Ampersand &amp &#38
+" Quotation mark &quot &#34
+¢ Cent sign &cent &#162
+£ Pound sign &pound &#163
+© Copyright symbol &copy &#169
+® Registered trademark &reg &#174
+‘ Left single quote &lsquo &#8216
+' Right single quote &rsquo &#8217 -->
+
+<!-- Exercise -->
+
+<hr>
+<div id="header" >
+    <h1>The Art Book Shop</h1>
+    <ul>
+        <li><a href="https://www.artstation.com/?sort_by=community">Home</a></li>
+        <li><a href="https://www.artstation.com/?sort_by=latest">Publications</a></li>
+        <li><a href="https://www.artstation.com/about">About</a></li>
+    </ul>
+</div>
+
+<div id="body">
+    <address>Charing Cross Road, London, WC2, UK</address>
+    <br>
+    <p>Telephone 0207 946 0946</p>
+    <!-- Mail to USER -->
+    <p><span class="Contact">Email.</span> <span><a href="mailto:mdt.hsn.76@hotmail.com">mdt.hsn.76@hotmail.com</a></span></p>
+    <br>
+    <hr>
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Gaziler%20Buca%C4%9F%C4%B1&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.whatismyip-address.com"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embed google maps on website</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div>
+    <p> &#169 The Art Bookshop</p>
+</div>
 </body>
 </html>
