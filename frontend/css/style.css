@@ -1,7 +1,55 @@
-p{
-
-    color: red;
-
-
+/* p{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
 }
+
+/* Color, Font Family */
+/* h1,h2{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+} */ 
+/* Background Color */
+/* body{
+    font-family:Arial,verdana,sans-serif;
+    color:#1f1104;
+    padding: 10px;
+} */
+/* 
+.page{
+    border: 1px solid #665544 ;
+    color: blue;
+    /* background-color:  #efefef; */
+    /* padding: inherit;
+} */ 
+/* Background and border not inherited
+However padding is inherited. */
+
+/* body{
+    background-color: rgb(200,200,200);
+}
+h1{
+    background-color: darkcyan;
+}
+h2{
+    background-color: #ee3e80;
+}
+p{
+    background-color: white;
+} */
+
+/* hsl (hue, saturation and lighneess)*/
+body{
+    background-color: #C8C8C8;
+    background-color: hsl(5, 15%, 76%);
+}
+p{
+    background-color: #ffffff;
+    background-color: hsla(5, 15%, 76%, 0.7);
+}
+
+
+
+
+
+
 
