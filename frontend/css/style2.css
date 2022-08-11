@@ -1,0 +1,49 @@
+p.one{
+    background-color: #eeeeee;
+    color: #666666;
+    text-shadow: 1px, 1px, 0px, #000000;
+}
+p.two{
+    background-color: #dddddd;
+    color: #666666;
+    text-shadow: 1px, 1px, 0px, #000000;
+}
+p.three{
+    background-color: #cccccc;
+    color: #666666;
+    text-shadow: 1px, 1px, 0px, #000000;
+}
+p.four{
+    background-color: #bbbbbb;
+    color: #666666;
+    text-shadow: 1px, 1px, 0px, #000000;
+}
+p.five{
+    background-color: #aaaaaa;
+    color: #666666;
+    text-shadow: 1px, 1px, 0px, #000000;
+}
+
+p.intro:first-letter{
+    font: size 45px; ;
+
+}
+
+p.intro:first-line{
+    font-weight: 400;
+
+}
+a:hover{
+    color: pink;
+    text-decoration: underline;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: deeppink;
+}
+a:link{
+    color: #000000;
+    text-decoration:none;
+}
