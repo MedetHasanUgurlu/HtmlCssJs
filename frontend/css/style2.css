@@ -1,4 +1,4 @@
-p.one{
+/* p.one{
     background-color: #eeeeee;
     color: #666666;
     text-shadow: 1px, 1px, 0px, #000000;
@@ -46,4 +46,37 @@ a:visited{
 a:link{
     color: #000000;
     text-decoration:none;
+} */
+
+/* h1{
+   font-family: 'Times New Roman', Times, serif;
+    color:  #0088dd;
+   font-size: 250%;
+   text-shadow: 2px 2px 3px  #666666;
+   padding: 10px;
+   margin-top:5px;
+   margin-bottom:10px ;
+
 }
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #0088dd;
+    font-size: 90%;
+
+}
+p.intro{ 
+    font-weight: bold;
+}
+h2.breedhistory{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+
+}
+p.author{
+    text-align: right;
+    font-style: italic;
+} */
+
+
