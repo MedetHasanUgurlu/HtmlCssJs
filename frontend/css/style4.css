@@ -1,0 +1,21 @@
+#paragrapgh{
+    background-color: red;
+    background: color #533;
+    background-color:#213142 ;
+    background-color: rgb(1, 42, 23);
+    /* Opacity */
+    background-color: rgb(22, 200, 46);
+
+    color: whitesmoke;
+
+    margin: 15px 12px;
+
+    padding: 10px;
+    
+    border:4px dashed blueviolet ;
+
+    border-radius: 25%;
+
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
