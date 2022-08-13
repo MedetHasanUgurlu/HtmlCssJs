@@ -18,4 +18,61 @@
 
     font-size: 22px;
     font-family: 'Courier New', Courier, monospace;
+    word-spacing: 10px;
+    letter-spacing: 10px;
+
+}
+
+.clickCSS{
+    display: block;
+    display: inline;
+    display: inline-block;
+    /* display: none; */
+    visibility: hidden;
+}
+
+#divId{
+
+
+    background-color: blue;
+    color: aliceblue;
+    width: 35%;
+    height: 200px;
+    max-height: 150px;
+
+    min-height: 120px;
+    margin: 15px auto 15px auto;
+    display: block;
+
+
+
+
+}
+
+/* .clearfix_data:before{
+    content:"";
+    clear: both;
+    display: block;
+} */
+
+
+a{
+    background-color: orange;
+    color: blue;
+    padding: 2px 4px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 3%;
+}
+a:hover{
+    background-color: blue;
+    color: orange;
+}
+a:visited{
+    background-color: blueviolet;
+    color: black;
+}
+*{
+    box-sizing: border-box; default
+
 }
