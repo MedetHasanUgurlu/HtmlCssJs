@@ -800,13 +800,51 @@
 // });
 
 
-let diziFunction6 =()=>{
-    const dizi = [2,4,6,8,10];
-    let sum = 0;
+// let diziFunction6 =()=>{
+//     const dizi = [2,4,6,8,10];
+//     let sum = 0;
     
-    dizi.forEach(element => {sum += element.valueOf();});
-    document.write(sum);
+//     dizi.forEach(element => {sum += element.valueOf();});
+//     document.write(sum);
+
+// }
+
+// diziFunction6();
+
+let diziFunctions =() => {
+    const dizi = [1,2,3,4,5,6,7,8,9,10];
+    console.log(dizi);
+    
+    // Sona Ekleme
+    dizi.push(76);
+    console.log(dizi);
+
+    // Başa Ekleme
+    dizi.unshift(88);
+    console.log(dizi);
+    
+    //Sondan Çıkarma
+    dizi.pop();
+    console.log(dizi);
+
+    // Baştan Çıkarma
+    dizi.shift();
+    console.log(dizi);
 
 }
 
-diziFunction6();
+//diziFunctions();
+
+
+//toString() ==> diziyi Stringe çevirir
+const dizi = [1,2,3,4,5,6,7,8,9,10]
+console.log(dizi.toString());
+//join() ==> diziyi Stringe çevirir ve bizim istediğimiz şekilde
+console.log(dizi.join("-"));
+
+const dizi1 = [1,2,3,4,5,6,7,8,9,10];
+const dizi2 = [11,12,13,14,15,16,17,18,];
+
+
+const result = dizi1.concat(dizi2);
+console.log(result.join("-"));
