@@ -811,40 +811,63 @@
 
 // diziFunction6();
 
-let diziFunctions =() => {
-    const dizi = [1,2,3,4,5,6,7,8,9,10];
-    console.log(dizi);
+// let diziFunctions =() => {
+//     const dizi = [1,2,3,4,5,6,7,8,9,10];
+//     console.log(dizi);
     
-    // Sona Ekleme
-    dizi.push(76);
-    console.log(dizi);
+//     // Sona Ekleme
+//     dizi.push(76);
+//     console.log(dizi);
 
-    // Başa Ekleme
-    dizi.unshift(88);
-    console.log(dizi);
+//     // Başa Ekleme
+//     dizi.unshift(88);
+//     console.log(dizi);
     
-    //Sondan Çıkarma
-    dizi.pop();
-    console.log(dizi);
+//     //Sondan Çıkarma
+//     dizi.pop();
+//     console.log(dizi);
 
-    // Baştan Çıkarma
-    dizi.shift();
-    console.log(dizi);
+//     // Baştan Çıkarma
+//     dizi.shift();
+//     console.log(dizi);
 
-}
+// }
 
-//diziFunctions();
+// //diziFunctions();
 
 
-//toString() ==> diziyi Stringe çevirir
-const dizi = [1,2,3,4,5,6,7,8,9,10]
-console.log(dizi.toString());
-//join() ==> diziyi Stringe çevirir ve bizim istediğimiz şekilde
-console.log(dizi.join("-"));
+// //toString() ==> diziyi Stringe çevirir
+// const dizi = [1,2,3,4,5,6,7,8,9,10]
+// console.log(dizi.toString());
+// //join() ==> diziyi Stringe çevirir ve bizim istediğimiz şekilde
+// console.log(dizi.join("-"));
 
 const dizi1 = [1,2,3,4,5,6,7,8,9,10];
 const dizi2 = [11,12,13,14,15,16,17,18,];
 
 
-const result = dizi1.concat(dizi2);
+//////////////////////////////////
+// diziyi birleştirme
+const result = dizi1.concat('INC');
 console.log(result.join("-"));
+console.log(typeof  result);
+
+//////////////////////////////////
+// Delete
+delete result[0];
+console.log(result);
+console.log(result.length);
+
+
+//////////////////////////////////
+//Slice
+function slice(a,n){
+
+    return a.slice(n);
+
+
+}
+
+console.log(slice([1,2,3,4,5,6,7,8,9,10], 6));
+
+
