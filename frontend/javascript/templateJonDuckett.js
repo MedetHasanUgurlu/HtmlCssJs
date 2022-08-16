@@ -72,26 +72,28 @@
 
 
 
-    // function Hotel(name,room,booked){
-    //     this.name = name;
-    //     this.room = room;
-    //     this.booked = booked;
-    //     this.checkAvailability = function(){
-            
-    //     }
-    //  }
+// function Hotel(name,room,booked){
+//     this.name = name;
+//     this.room = room;
+//     this.booked = booked;
+//     this.checkAvailability = function(){
 
-    // window.alert("pop-up-2")
+//     }
+//  }
+
+// window.alert("pop-up-2")
 
 
-    //USING THE BROWSER OBJECT MODEL
-    // let msg = '<h2>Browser Window</h2> <p>width'+window.innerWidth +'</p>';
-    // msg += "<p> height:</p>" + window.innerHeight + "</p>";
-    // msg += "<h2>History</h2>"+"<p>items:</p>" +window.history.length + "</p>";
+//USING THE BROWSER OBJECT MODEL
+// let msg = '<h2>Browser Window</h2> <p>width'+window.innerWidth +'</p>';
+// msg += "<p> height:</p>" + window.innerHeight + "</p>";
+// msg += "<h2>History</h2>"+"<p>items:</p>" +window.history.length + "</p>";
 
-    // let element = document.getElementById("info");
-    // element.innerHTML = msg;
+// let element = document.getElementById("info");
+// element.innerHTML = msg;
 
-    
+let x = document.title;
+document.write(typeof x);
+
 
 
