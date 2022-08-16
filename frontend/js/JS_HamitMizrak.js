@@ -16,19 +16,21 @@
 // JavaScript Single Thread çalışır yani senkron düzlemdedir.
 // Biz yazdığımız kodları Asenkron (aynı anda birden fazla  iş) için  callBackFunction
 // callBackFunction ancak bunun yerine promise veya asyn await 
-function hello() {
-    console.log("Hello There");
+// function hello() {
+//     console.log("Hello There");
 
     
-}
+// }
 
 
-function hiToUser(name,surname) { 
-    console.log("Hi " + name + " " + surname);
-  }
-hello();
-hiToUser("medethasan", "ugurlu");
+// function hiToUser(name,surname) { 
+//     console.log("Hi " + name + " " + surname);
+//   }
+// hello();
+// hiToUser("medethasan", "ugurlu");
 
 
-function double()
+
+
+
 

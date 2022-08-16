@@ -842,32 +842,43 @@
 // //join() ==> diziyi Stringe çevirir ve bizim istediğimiz şekilde
 // console.log(dizi.join("-"));
 
-const dizi1 = [1,2,3,4,5,6,7,8,9,10];
-const dizi2 = [11,12,13,14,15,16,17,18,];
+// const dizi1 = [1,2,3,4,5,6,7,8,9,10];
+// const dizi2 = [11,12,13,14,15,16,17,18,];
 
 
-//////////////////////////////////
-// diziyi birleştirme
-const result = dizi1.concat('INC');
-console.log(result.join("-"));
-console.log(typeof  result);
+// //////////////////////////////////
+// // diziyi birleştirme
+// const result = dizi1.concat('INC');
+// console.log(result.join("-"));
+// console.log(typeof  result);
 
-//////////////////////////////////
-// Delete
-delete result[0];
-console.log(result);
-console.log(result.length);
-
-
-//////////////////////////////////
-//Slice
-function slice(a,n){
-
-    return a.slice(n);
+// //////////////////////////////////
+// // Delete
+// delete result[0];
+// console.log(result);
+// console.log(result.length);
 
 
-}
+// //////////////////////////////////
+// //Slice
+// function slice(a,n){
 
-console.log(slice([1,2,3,4,5,6,7,8,9,10], 6));
+//     return a.slice(n);
+
+
+// }
+
+// console.log(slice([1,2,3,4,5,6,7,8,9,10], 6));
+
+
+
+// const dizi1 = [1,2,3,4,5,6,7,8,9,10];
+// const dizi2 = [11,12,13,14,15,16,17,18,];
+// //Splice
+
+// console.log(dizi1.splice(3,4));
+// console.log(dizi1);
+
+// Dizilerde Filter işlemi
 
 
