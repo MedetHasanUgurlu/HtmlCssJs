@@ -65,6 +65,11 @@ document.write(string.indexOf("güzel")+ "<br/>");
 // lastIndexOf sağdan başlamaya başlar.
 document.write(string.lastIndexOf("insanlar")+ "<br/>");
 
+let variable = parseInt("56.343");
+let variable2 = Number("543");
+
+document.write(variable + "<br/>");
+document.write(variable2 + "<br/>");
 
 
 
