@@ -73,4 +73,45 @@ document.write(variable2 + "<br/>");
 
 
 
+function hi(name){
+    return "Merhabalar " + name +"<br/>";
+}
+let x = hi("Medet");
+document.write(x + "<br/>");
+
+// Function Types
+// 1- Immedia Function
+// 2- Normal Function
+// 3- Anonymous Function
+// 4- Array Function
+
+//1- Immedia Function Çağırmaya gerek yok
+(function(){
+    console.log("Immedia Function");
+})()
+
+// 2- Normal Function
+
+function normalFunction(){
+    console.log("Normal Function");
+}
+normalFunction()
+// 3- Anonymous Function
+
+let z = anonymousFunction = function(){
+    console.log("Anonymous Function");
+}
+anonymousFunction();
+// 4- Array Function
+
+let y = () =>{
+    console.log("Arrow Function");
+    document.write("<br/> 4-Arrow Function");
+}
+y();
+
+
+
+
+
 
