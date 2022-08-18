@@ -129,18 +129,63 @@
 
 
 
-let sumfunction = (x)=> {
-    let sum = 0;
-    for (let i = 0; i<=x;i++) {
-        sum +=i;
+// let sumfunction = (x)=> {
+//     let sum = 0;
+//     for (let i = 0; i<=x;i++) {
+//         sum +=i;
         
+//     }
+//     return sum;
+
+
+// }
+
+// document.write(sumfunction(10));
+
+// Dizi   
+let dizi = [];
+let dizi2 = new Array();
+let z = Number(prompt("Lütfen bir sayı giriniz."));
+
+
+ let randomArrayFunction = ()=> {
+
+
+    let temp;
+    let array= [];
+    for (let i = 0; i<z; i++) {
+        temp = Math.floor(Math.random(10)*50);
+        array.push(temp);
+
+        dizi[i] = temp;
     }
-    return sum;
+    return array;
+
+ };
+
+ console.log("--------------------------------")
+ console.log(randomArrayFunction());
+
+//  for of(verinin kendisi) ve for each farkı 
 
 
-}
+// for (const key in randomArrayFunction()) {
 
-document.write(sumfunction(10));
+//     console.log(randomArrayFunction()[key]);
+
+//     }
+
+console.log("*--------------------------------")
+randomArrayFunction().forEach(element => {
+    console.log(element);
+    
+});
+
+// Filter
+let b = ()=> {
+    
+};
+
 
 
 
