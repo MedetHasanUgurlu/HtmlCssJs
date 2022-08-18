@@ -33,51 +33,51 @@
 // console.log(a instanceof String);
 
 // BACK SLASH
-console.log("1.satır\n 2.satır");
-console.log("1.satır\n \t 2.satır");
+// console.log("1.satır\n 2.satır");
+// console.log("1.satır\n \t 2.satır");
 
 
-// Hexadecimal number
-let hexadecimal = 0x76210;
-console.log(hexadecimal);
+// // Hexadecimal number
+// let hexadecimal = 0x76210;
+// console.log(hexadecimal);
 
-//toFixed number
-const number = 54.23234234;
-console.log(number.toFixed(4));
-
-
-//String ekleme
-const string ="Merhabalar güzel insanlar";
-document.write(string.concat(":-)") + "<br/>");
-
-//String parçalama
-//Substring
-document.write(string.substring(4) +"<br/>");
-
-document.write(string.substring(0,4) + "<br/>");
-
-//Char at bir harf deneme
-document.write(string.charAt(11)+ "<br/>");
-
-//indexof ben harf veririrm o sayı dönecek
-
-document.write(string.indexOf("güzel")+ "<br/>");
-// lastIndexOf sağdan başlamaya başlar.
-document.write(string.lastIndexOf("insanlar")+ "<br/>");
-
-let variable = parseInt("56.343");
-let variable2 = Number("543");
-
-document.write(variable + "<br/>");
-document.write(variable2 + "<br/>");
+// //toFixed number
+// const number = 54.23234234;
+// console.log(number.toFixed(4));
 
 
+// //String ekleme
+// const string ="Merhabalar güzel insanlar";
+// document.write(string.concat(":-)") + "<br/>");
 
-function hi(name){
-    return "Merhabalar " + name +"<br/>";
-}
-let x = hi("Medet");
-document.write(x + "<br/>");
+// //String parçalama
+// //Substring
+// document.write(string.substring(4) +"<br/>");
+
+// document.write(string.substring(0,4) + "<br/>");
+
+// //Char at bir harf deneme
+// document.write(string.charAt(11)+ "<br/>");
+
+// //indexof ben harf veririrm o sayı dönecek
+
+// document.write(string.indexOf("güzel")+ "<br/>");
+// // lastIndexOf sağdan başlamaya başlar.
+// document.write(string.lastIndexOf("insanlar")+ "<br/>");
+
+// let variable = parseInt("56.343");
+// let variable2 = Number("543");
+
+// document.write(variable + "<br/>");
+// document.write(variable2 + "<br/>");
+
+
+
+// function hi(name){
+//     return "Merhabalar " + name +"<br/>";
+// }
+// let x = hi("Medet");
+// document.write(x + "<br/>");
 
 // Function Types
 // 1- Immedia Function
@@ -86,29 +86,65 @@ document.write(x + "<br/>");
 // 4- Array Function
 
 //1- Immedia Function Çağırmaya gerek yok
-(function(){
-    console.log("Immedia Function");
-})()
+// (function(){
+//     console.log("Immedia Function");
+// })()
 
-// 2- Normal Function
+// // 2- Normal Function
 
-function normalFunction(){
-    console.log("Normal Function");
+// function normalFunction(){
+//     console.log("Normal Function");
+// }
+// normalFunction()
+// // 3- Anonymous Function
+
+// let z = anonymousFunction = function(){
+//     console.log("Anonymous Function");
+// }
+// anonymousFunction();
+// // 4- Arrow Function
+
+// let y = () =>{
+//     console.log("Arrow Function");
+//     document.write("<br/> 4-Arrow Function");
+// }
+// y();
+
+
+// setTimeout(()=>{},5000)
+
+
+// function first (number){
+//     console.log(Math.pow(number, 2));
+
+
+// }
+
+// function second(){
+//     const data = Number(prompt("Lütfen bir sayı giriniz."))
+//     first(data);
+// }
+
+// second();
+
+
+
+let sumfunction = (x)=> {
+    let sum = 0;
+    for (let i = 0; i<=x;i++) {
+        sum +=i;
+        
+    }
+    return sum;
+
+
 }
-normalFunction()
-// 3- Anonymous Function
 
-let z = anonymousFunction = function(){
-    console.log("Anonymous Function");
-}
-anonymousFunction();
-// 4- Array Function
+document.write(sumfunction(10));
 
-let y = () =>{
-    console.log("Arrow Function");
-    document.write("<br/> 4-Arrow Function");
-}
-y();
+
+
+
 
 
 
