@@ -182,9 +182,19 @@ randomArrayFunction().forEach(element => {
 });
 
 // Filter
+
+const a = [11,22,33,44,55,66,77,88,99,]
 let b = ()=> {
     
+   let result = a.filter(function(value) {
+        return value >=55;
+
+    });
+    document.writeln("<br/>" + result);
 };
+
+
+b();
 
 
 
